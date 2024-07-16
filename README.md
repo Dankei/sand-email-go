@@ -5,8 +5,11 @@ para configuralo é bem simples basta criar um arquivo .env na raiz de seu proje
 KEY = "*******" - Aqui ira colocar a chave/senha do serviço que ira utilizar no caso para fins de teste você pode utilizar o proprio Gmail que irei mostrar mais a baixo como faz para pegar
 
 FROM = "exemplo@gmail.com" - Aqui ira colocar quem estará enviando o email
+
 TO = "exemplo@gmail.com" - Aqui ira infomrar quem estará recebendo esse email
+
 PORT = 465 - Aqui ira informar a porta
+
 HOST = "smtp.gmail.com" servidor smtp que ira fazer o envio caso va utilizar do gmail pode usar como descrito aqui
 
 
